@@ -109,20 +109,71 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: SUBASH CHANDRA BOSE R
+RegisterNumber:  22009106
 */
+```
+SR Flip-flop
+module sr_flipflop(S, R, clock, Q, Qbar);
+input S, R, clock;
+output Q, Qbar;
+wire X, Y;
+nand(X, S, clock);
+nand(Y, R, clock);
+nand(Q, X, Qbar);
+nand(Qbar, Y, Q);
+endmodule
 
+D Flip-flop
+module d_flipflop(D, clock, Q, Qbar);
+input D, clock;
+output Q, Qbar;
+assign Dbar = ~D;
+wire X, Y;
+nand(X, D, clock);
+nand(Y, Dbar, clock);
+nand(Q, X, Qbar);
+nand(Qbar, Y, Q);
+endmodule
 
+JK Flip-flop
+module jk_flipflop(J, K, clock, Q, Qbar);
+input J, K, clock;
+output Q, Qbar;
+wire P, S;
+nand(P, J, clock, Qbar);
+nand(S, K, clock, Q);
+nand(Q, P, Qbar);
+nand(Qbar, S, Q);
+endmodule
+
+T Flip-flop
+module t_flipflop(T, clock, Q, Qbar);
+input T, clock;
+output Q, Qbar;
+wire A, B;
+nand(A, T, clock, Qbar);
+nand(B, T, clock, Q);
+nand(Q, A, Qbar);
+nand(Qbar, B, Q);
+endmodule
+```
 
 
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+![SR flip-flop](https://user-images.githubusercontent.com/123537051/214588511-e43f8346-e6db-42dd-891c-8652ce0dd188.png)
 
 
+![D flip-flop](https://user-images.githubusercontent.com/123537051/214588115-baa4df8f-8b7d-4c92-949a-710e855c003f.png)
 
+
+![JK flip-flop](https://user-images.githubusercontent.com/123537051/214588830-18bcec0b-fa0f-45d5-bd6b-cfcdfffa1319.png)
+
+
+![T flip-flop](https://user-images.githubusercontent.com/123537051/214588757-7ad93ff3-d6ea-4f6e-82f7-c86463058113.png)
 
 
 
@@ -138,3 +189,4 @@ RegisterNumber:
 
 
 ### RESULTS 
+Thus implementation of flipflops using verilog is verified
