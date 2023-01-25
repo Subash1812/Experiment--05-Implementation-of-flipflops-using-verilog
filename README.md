@@ -163,16 +163,16 @@ endmodule
 
 
 ### RTL LOGIC FOR FLIPFLOPS 
-
+SR flip-flop
 ![SR flip-flop](https://user-images.githubusercontent.com/123537051/214588511-e43f8346-e6db-42dd-891c-8652ce0dd188.png)
 
-
+D flip-flop
 ![D flip-flop](https://user-images.githubusercontent.com/123537051/214588115-baa4df8f-8b7d-4c92-949a-710e855c003f.png)
 
-
+JK flip-flop
 ![JK flip-flop](https://user-images.githubusercontent.com/123537051/214588830-18bcec0b-fa0f-45d5-bd6b-cfcdfffa1319.png)
 
-
+T flip-flop
 ![T flip-flop](https://user-images.githubusercontent.com/123537051/214588757-7ad93ff3-d6ea-4f6e-82f7-c86463058113.png)
 
 
