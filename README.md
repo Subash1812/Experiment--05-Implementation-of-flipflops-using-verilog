@@ -165,16 +165,16 @@ endmodule
 ### RTL LOGIC FOR FLIPFLOPS 
 
 SR Flip-flop
-
+![image](https://user-images.githubusercontent.com/123537051/215268843-60d3b07e-5042-46f0-86ce-e31cf0ce86f5.png)
 
 D Flip-flop
-
+![image](https://user-images.githubusercontent.com/123537051/215268860-3866b6a7-ecb8-4645-af6d-0297f51eaa4d.png)
 
 JK Flip-flop
-
+![image](https://user-images.githubusercontent.com/123537051/215268876-f950cbe7-c0f0-49c7-8bc5-deffe6e7ce7f.png)
 
 T Flip-flop
-
+![image](https://user-images.githubusercontent.com/123537051/215268893-7620cf1a-eb42-4800-952b-e8d7e3964d05.png)
 
 
 
@@ -182,15 +182,23 @@ T Flip-flop
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
 SR Flip-flop
+![image](https://user-images.githubusercontent.com/123537051/215269006-194e4ec1-221a-468c-8dc8-2d88b9002fac.png)
+
 
 
 D Flip-flop
+![image](https://user-images.githubusercontent.com/123537051/215269019-ac58302c-1621-4368-8f0a-f148619b99de.png)
+
 
 
 JK Flip-flop
+![image](https://user-images.githubusercontent.com/123537051/215269030-5ebac154-3de7-4d5f-899d-e1ebb6079444.png)
+
 
 
 T Flip-flop
+![image](https://user-images.githubusercontent.com/123537051/215269044-0d0533c9-de20-4421-999c-babecaf775af.png)
+
 
 
 
